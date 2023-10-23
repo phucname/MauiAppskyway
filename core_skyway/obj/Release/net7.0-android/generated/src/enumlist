@@ -1,0 +1,14 @@
+com.ntt.skyway.core.channel.Channel$State:Com.Ntt.Skyway.Core.Channel:Channel.State
+com.ntt.skyway.core.channel.member.Member$Side:Com.Ntt.Skyway.Core.Channel.Member:Member.Side
+com.ntt.skyway.core.channel.member.Member$State:Com.Ntt.Skyway.Core.Channel.Member:Member.State
+com.ntt.skyway.core.channel.member.Member$Type:Com.Ntt.Skyway.Core.Channel.Member:Member.Type
+com.ntt.skyway.core.channel.Publication$State:Com.Ntt.Skyway.Core.Channel:Publication.State
+com.ntt.skyway.core.channel.Subscription$State:Com.Ntt.Skyway.Core.Channel:Subscription.State
+com.ntt.skyway.core.content.Codec$MimeType:Com.Ntt.Skyway.Core.Content:Codec.MimeType
+com.ntt.skyway.core.content.sink.SurfaceViewRenderer$LayoutParam:Com.Ntt.Skyway.Core.Content.Sink:SurfaceViewRenderer.LayoutParam
+com.ntt.skyway.core.content.sink.SurfaceViewRenderer$ScalingType:Com.Ntt.Skyway.Core.Content.Sink:SurfaceViewRenderer.ScalingType
+com.ntt.skyway.core.content.Stream$ContentType:Com.Ntt.Skyway.Core.Content:Stream.ContentType
+com.ntt.skyway.core.content.Stream$Side:Com.Ntt.Skyway.Core.Content:Stream.Side
+com.ntt.skyway.core.network.WebSocketClient$ConnectionState:Com.Ntt.Skyway.Core.Network:WebSocketClient.ConnectionState
+com.ntt.skyway.core.SkyWayContext$TurnPolicy:Com.Ntt.Skyway.Core:SkyWayContext.TurnPolicy
+com.ntt.skyway.core.util.Logger$LogLevel:Com.Ntt.Skyway.Core.Util:Logger.LogLevel

@@ -36,11 +36,14 @@
               "C:\\Users\\Dell\\project\\MauiAppskyway\\core_skyway\\core_skyway.csproj": {
                 "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\core_skyway\\core_skyway.csproj"
               },
-              "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\skyway_room.csproj": {
-                "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\skyway_room.csproj"
+              "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj": {
+                "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj"
               },
               "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_sfubot\\skyway_sfubot.csproj": {
                 "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_sfubot\\skyway_sfubot.csproj"
+              },
+              "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\webrtc.csproj": {
+                "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\webrtc.csproj"
               }
             }
           }
@@ -55,9 +58,77 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[7.0.86, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Android.Glide": {
+              "target": "Package",
+              "version": "[4.13.2.2, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.4.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.15, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.5.1.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Navigation.Common": {
+              "target": "Package",
+              "version": "[2.5.2.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Navigation.Fragment": {
+              "target": "Package",
+              "version": "[2.5.2.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Navigation.Runtime": {
+              "target": "Package",
+              "version": "[2.5.2.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Navigation.UI": {
+              "target": "Package",
+              "version": "[2.5.2.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Security.SecurityCrypto": {
+              "target": "Package",
+              "version": "[1.1.0-alpha03, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.7.0, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Google.Crypto.Tink.Android": {
+              "target": "Package",
+              "version": "[1.7.0.1, )",
+              "autoReferenced": true
+            },
             "Xamarin.Kotlin.StdLib": {
               "target": "Package",
               "version": "[1.9.10.2, )"
+            },
+            "Xamarin.KotlinX.Coroutines.Core": {
+              "target": "Package",
+              "version": "[1.7.3.2, )"
             }
           },
           "imports": [
@@ -73,6 +144,9 @@
           "warn": true,
           "frameworkReferences": {
             "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
               "privateAssets": "all"
             },
             "Microsoft.NETCore.App": {
@@ -137,6 +211,16 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
+          "dependencies": {
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.9.10.2, )"
+            },
+            "Xamarin.KotlinX.Coroutines.Core": {
+              "target": "Package",
+              "version": "[1.7.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -160,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\skyway_room.csproj": {
+    "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\skyway_room.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj",
         "projectName": "skyway_room",
-        "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\skyway_room.csproj",
+        "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\SkywayNew\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,6 +284,12 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
+          "dependencies": {
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.9.10.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -231,6 +321,75 @@
         "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_sfubot\\skyway_sfubot.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_sfubot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-android"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-android33.0": {
+            "targetAlias": "net7.0-android",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-android33.0": {
+          "targetAlias": "net7.0-android",
+          "dependencies": {
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.9.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\webrtc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\webrtc.csproj",
+        "projectName": "webrtc",
+        "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\webrtc.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\webrtc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

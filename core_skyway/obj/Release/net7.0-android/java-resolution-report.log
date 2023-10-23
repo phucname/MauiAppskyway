@@ -1,0 +1,149 @@
+==== Cycle 1 ====
+
+The method '[Method] boolean access$nativeSetup(com.ntt.skyway.core.SkyWayContext $this, java.lang.String authToken, java.lang.String optionsJson, long pcFactory, com.ntt.skyway.core.network.HttpClient httpClient, com.ntt.skyway.core.network.WebSocketClientFactory webSocketClient, com.ntt.skyway.core.util.Logger logger)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setSetup$p(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object setup$default(android.content.Context p0, com.ntt.skyway.core.SkyWayContext.Options p1, kotlin.jvm.functions.Function1 p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.Error copy$default(com.ntt.skyway.core.SkyWayContext.Error p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.IceParams copy$default(com.ntt.skyway.core.SkyWayContext.IceParams p0, java.lang.String p1, java.lang.Integer p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.Options copy$default(com.ntt.skyway.core.SkyWayContext.Options p0, java.lang.String p1, com.ntt.skyway.core.util.Logger.LogLevel p2, boolean p3, boolean p4, com.ntt.skyway.core.SkyWayContext.RtcApi p5, com.ntt.skyway.core.SkyWayContext.IceParams p6, com.ntt.skyway.core.SkyWayContext.Signaling p7, com.ntt.skyway.core.SkyWayContext.RtcConfig p8, com.ntt.skyway.core.SkyWayContext.Sfu p9, com.ntt.skyway.core.SkyWayContext.Token p10, int p11, java.lang.Object p12)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.RtcApi copy$default(com.ntt.skyway.core.SkyWayContext.RtcApi p0, java.lang.String p1, java.lang.Boolean p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.RtcConfig copy$default(com.ntt.skyway.core.SkyWayContext.RtcConfig p0, java.lang.Integer p1, com.ntt.skyway.core.SkyWayContext.TurnPolicy p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.Sfu copy$default(com.ntt.skyway.core.SkyWayContext.Sfu p0, java.lang.String p1, java.lang.Integer p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.Signaling copy$default(com.ntt.skyway.core.SkyWayContext.Signaling p0, java.lang.String p1, java.lang.Boolean p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.SkyWayContext.Token copy$default(com.ntt.skyway.core.SkyWayContext.Token p0, java.lang.Integer p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.AudioSource createRTCAudioSource()' was removed because the Java return type 'org.webrtc.AudioSource' could not be found.
+The method '[Method] org.webrtc.AudioTrack createRTCAudioTrack(org.webrtc.AudioSource source)' was removed because the Java return type 'org.webrtc.AudioTrack' could not be found.
+The method '[Method] org.webrtc.VideoSource createRTCVideoSource()' was removed because the Java return type 'org.webrtc.VideoSource' could not be found.
+The method '[Method] org.webrtc.VideoTrack createRTCVideoTrack(org.webrtc.VideoSource source)' was removed because the Java return type 'org.webrtc.VideoTrack' could not be found.
+The method '[Method] org.webrtc.SurfaceTextureHelper createSurfaceTextureHelper()' was removed because the Java return type 'org.webrtc.SurfaceTextureHelper' could not be found.
+The method '[Method] org.webrtc.EglBase.Context getEglBaseContext()' was removed because the Java return type 'org.webrtc.EglBase.Context' could not be found.
+The method '[Method] java.util.List<com.ntt.skyway.core.content.local.source.VideoSource> getVideoSourceList$core_release()' was removed because its name contains a dollar sign.
+The class '[Class] com.ntt.skyway.core.WebRTCManager.WebRTCLog' was removed because the Java implemented interface type 'org.webrtc.Loggable' could not be found.
+The method '[Method] java.lang.Object create$default(com.ntt.skyway.core.channel.Channel.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object find$default(com.ntt.skyway.core.channel.Channel.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object findOrCreate$default(com.ntt.skyway.core.channel.Channel.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Channel.State fromString$core_release(java.lang.String state)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeClose(com.ntt.skyway.core.channel.ChannelImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeCreate(java.lang.String channelName, java.lang.String channelMetadata)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeFind(java.lang.String channelName, java.lang.String channelId)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeFindOrCreate(java.lang.String channelName, java.lang.String channelMetadata)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeJoin(com.ntt.skyway.core.channel.ChannelImpl $this, long ptr, java.lang.String name, java.lang.String metadata, java.lang.String type, java.lang.String subtype, int keepAliveIntervalSec)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeLeave(com.ntt.skyway.core.channel.ChannelImpl $this, long ptr, long memberPointer)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUpdateMetadata(com.ntt.skyway.core.channel.ChannelImpl $this, long ptr, java.lang.String metadata)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Channel access$instantiateChannel(com.ntt.skyway.core.channel.ChannelImpl.Companion $this, java.lang.String channelJson)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeCreate(com.ntt.skyway.core.channel.ChannelImpl.Companion $this, java.lang.String channelName, java.lang.String channelMetadata)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeFind(com.ntt.skyway.core.channel.ChannelImpl.Companion $this, java.lang.String channelName, java.lang.String channelId)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeFindOrCreate(com.ntt.skyway.core.channel.ChannelImpl.Companion $this, java.lang.String channelName, java.lang.String channelMetadata)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object create$default(com.ntt.skyway.core.channel.ChannelImpl.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object find$default(com.ntt.skyway.core.channel.ChannelImpl.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object findOrCreate$default(com.ntt.skyway.core.channel.ChannelImpl.Companion p0, java.lang.String p1, java.lang.String p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication.Options copy$default(com.ntt.skyway.core.channel.Publication.Options p0, java.lang.String p1, java.util.List p2, java.util.List p3, java.lang.Boolean p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication.State fromString$core_release(java.lang.String state)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeCancel(com.ntt.skyway.core.channel.PublicationImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeDisable(com.ntt.skyway.core.channel.PublicationImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeEnable(com.ntt.skyway.core.channel.PublicationImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUpdateMetadata(com.ntt.skyway.core.channel.PublicationImpl $this, long ptr, java.lang.String metadata)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.LocalPerson addLocalParson$core_release(java.lang.String memberJson)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication addLocalPublication$core_release(java.lang.String publicationJson, com.ntt.skyway.core.content.local.LocalStream stream)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Subscription addLocalSubscription$core_release(java.lang.String subscriptionJson)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.Member addRemoteMemberIfNeeded$core_release(java.lang.String memberJson)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication addRemotePublicationIfNeeded$core_release(java.lang.String publicationJson)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Subscription addRemoteSubscriptionIfNeeded$core_release(java.lang.String subscriptionJson)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.Member findMember$core_release(java.lang.String memberId)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication findPublication$core_release(java.lang.String publicationId)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Subscription findSubscription$core_release(java.lang.String subscriptionId)' was removed because its name contains a dollar sign.
+The method '[Method] void resetLocalPerson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Subscription.Options copy$default(com.ntt.skyway.core.channel.Subscription.Options p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Subscription.State fromString$core_release(java.lang.String state)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeCancel(com.ntt.skyway.core.channel.SubscriptionImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.remote.RemoteStream getInternalStream$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setInternalStream$core_release(com.ntt.skyway.core.content.remote.RemoteStream <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object publish$default(com.ntt.skyway.core.channel.member.LocalPerson p0, com.ntt.skyway.core.content.local.LocalStream p1, com.ntt.skyway.core.channel.Publication.Options p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object subscribe$default(com.ntt.skyway.core.channel.member.LocalPerson p0, com.ntt.skyway.core.channel.Publication p1, com.ntt.skyway.core.channel.Subscription.Options p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Object subscribe$default(com.ntt.skyway.core.channel.member.LocalPerson p0, java.lang.String p1, com.ntt.skyway.core.channel.Subscription.Options p2, kotlin.coroutines.Continuation p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] kotlinx.coroutines.sync.Mutex access$getPublishMutex$p(com.ntt.skyway.core.channel.member.LocalPersonImpl $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Repository access$getRepository$p(com.ntt.skyway.core.channel.member.LocalPersonImpl $this)' was removed because its name contains a dollar sign.
+The method '[Method] kotlinx.coroutines.sync.Mutex access$getSubscribeMutex$p(com.ntt.skyway.core.channel.member.LocalPersonImpl $this)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeLeave(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativePublish(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr, long localStreamPtr, java.lang.String options)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeSubscribe(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr, java.lang.String publicationId, java.lang.String options)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUnpublish(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr, java.lang.String publicationId)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUnsubscribe(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr, java.lang.String subscriptionId)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUpdateMetadata(com.ntt.skyway.core.channel.member.LocalPersonImpl $this, long ptr, java.lang.String metadata)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.Member.Dto copy$default(com.ntt.skyway.core.channel.member.Member.Dto p0, com.ntt.skyway.core.channel.Channel p1, java.lang.String p2, java.lang.String p3, long p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.Member.Init copy$default(com.ntt.skyway.core.channel.member.Member.Init p0, java.lang.String p1, java.lang.String p2, int p3, com.ntt.skyway.core.channel.member.Member.Type p4, java.lang.String p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.member.Member.State fromString$core_release(java.lang.String state)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeLeave(com.ntt.skyway.core.channel.member.RemoteMemberImpl $this, long ptr)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUpdateMetadata(com.ntt.skyway.core.channel.member.RemoteMemberImpl $this, long ptr, java.lang.String metadata)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.Codec copy$default(com.ntt.skyway.core.content.Codec p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<com.ntt.skyway.core.content.Codec> fromJsonArray(com.google.gson.JsonArray jsonArr)' was removed because the Java parameter type 'com.google.gson.JsonArray' could not be found.
+The method '[Method] com.ntt.skyway.core.content.Codec.MimeType fromString$core_release(java.lang.String literal)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.Encoding copy$default(com.ntt.skyway.core.content.Encoding p0, java.lang.String p1, java.lang.Integer p2, java.lang.Double p3, java.lang.Double p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<com.ntt.skyway.core.content.Encoding> fromJsonArray(com.google.gson.JsonArray jsonArr)' was removed because the Java parameter type 'com.google.gson.JsonArray' could not be found.
+The method '[Method] com.ntt.skyway.core.content.local.LocalAudioStream createLocalAudioStream(java.lang.String streamJson, com.ntt.skyway.core.content.local.source.AudioSource source, org.webrtc.AudioTrack track)' was removed because the Java parameter type 'org.webrtc.AudioTrack' could not be found.
+The method '[Method] com.ntt.skyway.core.content.local.LocalVideoStream createLocalVideoStream(java.lang.String streamJson, com.ntt.skyway.core.content.local.source.VideoSource source, org.webrtc.VideoTrack track)' was removed because the Java parameter type 'org.webrtc.VideoTrack' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] long getNativePointer$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.Stream.ContentType fromString$core_release(java.lang.String string)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.Stream.Dto copy$default(com.ntt.skyway.core.content.Stream.Dto p0, java.lang.String p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.WebRTCStats copy$default(com.ntt.skyway.core.content.WebRTCStats p0, java.util.List p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.ntt.skyway.core.content.WebRTCStatsReport.WebRTCStatsReport' was removed because the Java parameter type 'java.util.Map' could not be found.
+The method '[Method] java.util.Map<java.lang.String, com.google.gson.JsonElement> component3()' was removed because the Java return type 'java.util.Map<java.lang.String, com.google.gson.JsonElement>' could not be found.
+The method '[Method] com.ntt.skyway.core.content.WebRTCStatsReport copy$default(com.ntt.skyway.core.content.WebRTCStatsReport p0, java.lang.String p1, java.lang.String p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.WebRTCStatsReport copy(java.lang.String id, java.lang.String type, java.util.Map<java.lang.String, ? extends com.google.gson.JsonElement> params)' was removed because the Java parameter type 'java.util.Map' could not be found.
+The method '[Method] java.util.Map<java.lang.String, com.google.gson.JsonElement> getParams()' was removed because the Java return type 'java.util.Map<java.lang.String, com.google.gson.JsonElement>' could not be found.
+The constructor 'Constructor: com.ntt.skyway.core.content.local.LocalAudioStream.LocalAudioStream' was removed because the Java parameter type 'org.webrtc.AudioTrack' could not be found.
+The method '[Method] org.webrtc.AudioTrack getTrack()' was removed because the Java return type 'org.webrtc.AudioTrack' could not be found.
+The constructor 'Constructor: com.ntt.skyway.core.content.local.LocalVideoStream.LocalVideoStream' was removed because the Java parameter type 'org.webrtc.VideoTrack' could not be found.
+The method '[Method] void getOnAudioBufferHandler$annotations()' was removed because its name contains a dollar sign.
+The method '[Method] void getOnAudioBufferListener$core_release$annotations()' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.audio.WebRtcAudioRecord.OnAudioBufferListener getOnAudioBufferListener$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.content.local.source.CameraSource.CapturingOptions copy$default(com.ntt.skyway.core.content.local.source.CameraSource.CapturingOptions p0, int p1, int p2, int p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void dispose$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.VideoSource getSource()' was removed because the Java return type 'org.webrtc.VideoSource' could not be found.
+The method '[Method] org.webrtc.SurfaceTextureHelper getTextureHelper()' was removed because the Java return type 'org.webrtc.SurfaceTextureHelper' could not be found.
+The method '[Method] org.webrtc.YuvConverter getYuvConverter()' was removed because the Java return type 'org.webrtc.YuvConverter' could not be found.
+The method '[Method] void initialize$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setSource(org.webrtc.VideoSource value)' was removed because the Java parameter type 'org.webrtc.VideoSource' could not be found.
+The method '[Method] void setTextureHelper(org.webrtc.SurfaceTextureHelper value)' was removed because the Java parameter type 'org.webrtc.SurfaceTextureHelper' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because the Java field type 'org.webrtc.VideoSource' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because the Java field type 'org.webrtc.SurfaceTextureHelper' could not be found.
+The method '[Method] void getOnAudioBufferHandler$annotations()' was removed because its name contains a dollar sign.
+The method '[Method] void getOnAudioBufferListener$core_release$annotations()' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.audio.WebRtcAudioTrack.OnAudioBufferListener getOnAudioBufferListener$core_release()' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.VideoSink getSink()' was removed because the Java return type 'org.webrtc.VideoSink' could not be found.
+The method '[Method] com.ntt.skyway.core.content.sink.CustomRenderer.VideoFrameBuffer copy$default(com.ntt.skyway.core.content.sink.CustomRenderer.VideoFrameBuffer p0, int p1, int p2, java.nio.ByteBuffer p3, java.nio.ByteBuffer p4, java.nio.ByteBuffer p5, int p6, int p7, int p8, int p9, java.lang.Object p10)' was removed because its name contains a dollar sign.
+The method '[Method] org.webrtc.VideoSink getSink()' was removed because the Java return type 'org.webrtc.VideoSink' could not be found.
+The method '[Method] org.webrtc.SurfaceViewRenderer getSink()' was removed because the Java return type 'org.webrtc.SurfaceViewRenderer' could not be found.
+The method '[Method] org.webrtc.VideoSink getSink()' was removed because the Java return type 'org.webrtc.VideoSink' could not be found.
+The method '[Method] void setSink(org.webrtc.SurfaceViewRenderer value)' was removed because the Java parameter type 'org.webrtc.SurfaceViewRenderer' could not be found.
+The method '[Method] void setup$default(com.ntt.skyway.core.content.sink.SurfaceViewRenderer p0, com.ntt.skyway.core.content.sink.SurfaceViewRenderer.LayoutParam p1, com.ntt.skyway.core.content.sink.SurfaceViewRenderer.LayoutParam p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because the Java field type 'org.webrtc.SurfaceViewRenderer' could not be found.
+The method '[Method] org.webrtc.RendererCommon.ScalingType toWebRTC$core_release(com.ntt.skyway.core.content.sink.SurfaceViewRenderer.ScalingType scalingType)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnFailure(com.ntt.skyway.core.network.HttpClient $this, java.lang.String id)' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnResponse(com.ntt.skyway.core.network.HttpClient $this, java.lang.String id, int status, java.lang.String body, java.lang.String headers)' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.network.WebSocketClient.ConnectionState access$getConnectionState$p(com.ntt.skyway.core.network.WebSocketClient $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getNativePointer$p(com.ntt.skyway.core.network.WebSocketClient $this)' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnClose(com.ntt.skyway.core.network.WebSocketClient $this, long nativePointer, int code)' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnConnect(com.ntt.skyway.core.network.WebSocketClient $this, long nativePointer)' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnError(com.ntt.skyway.core.network.WebSocketClient $this, long nativePointer, int code)' was removed because its name contains a dollar sign.
+The method '[Method] void access$nativeOnMessage(com.ntt.skyway.core.network.WebSocketClient $this, long nativePointer, java.lang.String message)' was removed because its name contains a dollar sign.
+The method '[Method] void access$updateState(com.ntt.skyway.core.network.WebSocketClient $this, com.ntt.skyway.core.network.WebSocketClient.ConnectionState state)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.locks.ReentrantLock access$getMemberLock$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.locks.ReentrantLock access$getPublicationLock$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.locks.ReentrantLock access$getSubscriptionLock$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Repository access$getRepository$p(com.ntt.skyway.plugin.remotePerson.RemotePerson $this)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$nativeSubscribe(com.ntt.skyway.plugin.remotePerson.RemotePerson $this, long ptr, java.lang.String publicationId)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$nativeUnsubscribe(com.ntt.skyway.plugin.remotePerson.RemotePerson $this, long ptr, java.lang.String subscriptionId)' was removed because its name contains a dollar sign.
+

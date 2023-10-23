@@ -1,0 +1,15 @@
+==== Cycle 1 ====
+
+The constructor 'Constructor: com.ntt.skyway.plugin.sfuBot.Forwarding.Forwarding' was removed because the Java parameter type 'com.ntt.skyway.core.channel.Channel' could not be found.
+The constructor 'Constructor: com.ntt.skyway.plugin.sfuBot.Forwarding.Forwarding' was removed because the Java parameter type 'com.ntt.skyway.core.channel.Publication' could not be found.
+The constructor 'Constructor: com.ntt.skyway.plugin.sfuBot.Forwarding.Forwarding' was removed because the Java parameter type 'com.ntt.skyway.core.channel.Publication' could not be found.
+The method '[Method] com.ntt.skyway.core.channel.Channel getChannel()' was removed because the Java return type 'com.ntt.skyway.core.channel.Channel' could not be found.
+The method '[Method] long getNativePointer$sfubot_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.ntt.skyway.core.channel.Publication getOriginPublication()' was removed because the Java return type 'com.ntt.skyway.core.channel.Publication' could not be found.
+The method '[Method] com.ntt.skyway.core.channel.Publication getRelayingPublication()' was removed because the Java return type 'com.ntt.skyway.core.channel.Publication' could not be found.
+The method '[Method] com.ntt.skyway.plugin.sfuBot.Forwarding create(com.ntt.skyway.core.channel.Channel channel, com.ntt.skyway.core.channel.Publication originPublication, java.lang.String forwardingJson)' was removed because the Java parameter type 'com.ntt.skyway.core.channel.Channel' could not be found.
+The method '[Method] com.ntt.skyway.plugin.sfuBot.Forwarding create(com.ntt.skyway.core.channel.Channel channel, com.ntt.skyway.core.channel.Publication originPublication, java.lang.String forwardingJson)' was removed because the Java parameter type 'com.ntt.skyway.core.channel.Publication' could not be found.
+The method '[Method] com.ntt.skyway.plugin.sfuBot.Forwarding.Configure copy$default(com.ntt.skyway.plugin.sfuBot.Forwarding.Configure p0, int p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The class '[Class] com.ntt.skyway.plugin.sfuBot.SFUBot' was removed because the Java base type 'com.ntt.skyway.core.channel.member.RemoteMember' could not be found.
+The class '[Class] com.ntt.skyway.plugin.sfuBot.SFUBotPlugin' was removed because the Java implemented interface type 'com.ntt.skyway.plugin.Plugin' could not be found.
+

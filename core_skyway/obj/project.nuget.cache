@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uCNEioi+eXdOyLpXSxnyMmxtYWEB0r5XCu+eBVo3c9L9Cp5hNS3YlaSl3E/WfB71LWlOmA6yyQUbciyzBZLdKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\project\\MauiAppskyway\\core_skyway\\core_skyway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.jetbrains.annotations\\24.0.1.5\\xamarin.jetbrains.annotations.24.0.1.5.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib\\1.9.10.2\\xamarin.kotlin.stdlib.1.9.10.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib.common\\1.9.10.2\\xamarin.kotlin.stdlib.common.1.9.10.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk7\\1.9.10.2\\xamarin.kotlin.stdlib.jdk7.1.9.10.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.10.2\\xamarin.kotlin.stdlib.jdk8.1.9.10.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlinx.coroutines.core\\1.7.3.2\\xamarin.kotlinx.coroutines.core.1.7.3.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.3.2\\xamarin.kotlinx.coroutines.core.jvm.1.7.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

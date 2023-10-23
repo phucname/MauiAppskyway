@@ -1,0 +1,8 @@
+com/ntt/skyway/plugin/sfubot/BuildConfig = Com.Ntt.Skyway.Plugin.Sfubot.BuildConfig
+  <init>()V = .ctor()
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  LIBRARY_PACKAGE_NAME = LibraryPackageName
+com/ntt/skyway/plugin/sfuBot/Forwarding = Com.Ntt.Skyway.Plugin.SfuBot.Forwarding
+  getId()Ljava/lang/String; = Id
+  getConfigure()Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure; = GetConfigure()

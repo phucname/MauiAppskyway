@@ -9,6 +9,10 @@
       {
         "name": "Microsoft.Android",
         "version": ""
+      },
+      {
+        "name": "Microsoft.Maui.Essentials",
+        "version": "**FromWorkload**"
       }
     ],
     "configProperties": {

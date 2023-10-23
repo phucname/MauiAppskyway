@@ -1,0 +1,2 @@
+RelativeLayout;obj\Debug\net7.0-android\res\layout\activity_main.xml
+TextView;obj\Debug\net7.0-android\res\layout\activity_main.xml

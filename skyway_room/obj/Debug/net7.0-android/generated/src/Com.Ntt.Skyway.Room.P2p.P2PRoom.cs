@@ -196,7 +196,7 @@ namespace Com.Ntt.Skyway.Room.P2p {
 
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.ntt.skyway.room.p2p']/class[@name='P2PRoom']/method[@name='findOrCreate' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.room.p2p.P2PRoom&gt;']]"
 		[Register ("findOrCreate", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "")]
-		public static unsafe global::Java.Lang.Object? FindOrCreate (string? name, string? metadata, global::Kotlin.Coroutines.IContinuation? _completion)
+		public static unsafe global::Java.Lang.Object? FindOrCreate (string? name, string? metadata, global::Kotlin.Coroutines.IContinuation _completion)
 		{
 			const string __id = "findOrCreate.(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;";
 			IntPtr native_name = JNIEnv.NewString ((string?)name);

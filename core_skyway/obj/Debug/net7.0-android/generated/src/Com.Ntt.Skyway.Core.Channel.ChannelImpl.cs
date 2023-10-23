@@ -836,9 +836,5 @@ namespace Com.Ntt.Skyway.Core.Channel {
 			}
 		}
 
-        public IChannel.State GetState()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

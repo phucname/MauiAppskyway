@@ -71,6 +71,12 @@
             android:text="join SFU room" />
 
     </LinearLayout>
+    <com.ntt.skyway.core.content.sink.SurfaceViewRenderer
+        android:id="@+id/local_renderer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+         
+               />
 
 
 </LinearLayout>

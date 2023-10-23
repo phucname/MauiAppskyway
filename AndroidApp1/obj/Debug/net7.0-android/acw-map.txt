@@ -4,9 +4,15 @@ androidapp1.MainActivity;crc64e19d6d5a4f0709ca.MainActivity
 AndroidApp1.MainActivity+Continuation, Skyway_android;crc64e19d6d5a4f0709ca.MainActivity_Continuation
 AndroidApp1.MainActivity.Continuation;crc64e19d6d5a4f0709ca.MainActivity_Continuation
 androidapp1.MainActivity_Continuation;crc64e19d6d5a4f0709ca.MainActivity_Continuation
+AndroidApp1.MainActivity+Render, Skyway_android;crc64e19d6d5a4f0709ca.MainActivity_Render
+AndroidApp1.MainActivity.Render;crc64e19d6d5a4f0709ca.MainActivity_Render
+androidapp1.MainActivity_Render;crc64e19d6d5a4f0709ca.MainActivity_Render
 Skyway_android.Activity1, Skyway_android;crc64f3f6dc613f2250a0.Activity1
 Skyway_android.Activity1;crc64f3f6dc613f2250a0.Activity1
 skyway_android.Activity1;crc64f3f6dc613f2250a0.Activity1
+Skyway_android.ActivityP2PRoom, Skyway_android;crc64f3f6dc613f2250a0.ActivityP2PRoom
+Skyway_android.ActivityP2PRoom;crc64f3f6dc613f2250a0.ActivityP2PRoom
+skyway_android.ActivityP2PRoom;crc64f3f6dc613f2250a0.ActivityP2PRoom
 Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials;crc6468b6408a11370c2f.WebAuthenticatorCallbackActivity
 Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity;crc6468b6408a11370c2f.WebAuthenticatorCallbackActivity
 microsoft.maui.authentication.WebAuthenticatorCallbackActivity;crc6468b6408a11370c2f.WebAuthenticatorCallbackActivity
@@ -112,6 +118,75 @@ com.google.gson.annotations.Until;com.google.gson.annotations.Until
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics;crc643f2b18b2570eaa5a.PlatformGraphicsView
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
 microsoft.maui.graphics.platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
+Square.OkHttp3.CallExtensions+ActionCallback, Square.OkHttp3;crc64e9db98a0d7058662.CallExtensions_ActionCallback
+Square.OkHttp3.CallExtensions.ActionCallback;crc64e9db98a0d7058662.CallExtensions_ActionCallback
+square.okhttp3.CallExtensions_ActionCallback;crc64e9db98a0d7058662.CallExtensions_ActionCallback
+Square.OkHttp3.OkHttpClient+Builder+AuthenticatorImpl, Square.OkHttp3;okhttp3.OkHttpClient$Builder_AuthenticatorImpl
+Square.OkHttp3.OkHttpClient.Builder.AuthenticatorImpl;okhttp3.OkHttpClient$Builder_AuthenticatorImpl
+okhttp3.OkHttpClient$Builder_AuthenticatorImpl;okhttp3.OkHttpClient$Builder_AuthenticatorImpl
+Square.OkHttp3.OkHttpClient+Builder+InterceptorImpl, Square.OkHttp3;okhttp3.OkHttpClient$Builder_InterceptorImpl
+Square.OkHttp3.OkHttpClient.Builder.InterceptorImpl;okhttp3.OkHttpClient$Builder_InterceptorImpl
+okhttp3.OkHttpClient$Builder_InterceptorImpl;okhttp3.OkHttpClient$Builder_InterceptorImpl
+Square.OkHttp3.OkHttpClient+Builder+DnsImpl, Square.OkHttp3;okhttp3.OkHttpClient$Builder_DnsImpl
+Square.OkHttp3.OkHttpClient.Builder.DnsImpl;okhttp3.OkHttpClient$Builder_DnsImpl
+okhttp3.OkHttpClient$Builder_DnsImpl;okhttp3.OkHttpClient$Builder_DnsImpl
+Square.OkHttp3.OkHttpClient+Builder+HostnameVerifierImpl, Square.OkHttp3;okhttp3.OkHttpClient$Builder_HostnameVerifierImpl
+Square.OkHttp3.OkHttpClient.Builder.HostnameVerifierImpl;okhttp3.OkHttpClient$Builder_HostnameVerifierImpl
+okhttp3.OkHttpClient$Builder_HostnameVerifierImpl;okhttp3.OkHttpClient$Builder_HostnameVerifierImpl
+Square.OkHttp3.EventListener+IFactory, Square.OkHttp3;okhttp3.EventListener$Factory
+Square.OkHttp3.EventListener.IFactory;okhttp3.EventListener$Factory
+okhttp3.EventListener$Factory;okhttp3.EventListener$Factory
+Square.OkHttp3.IAuthenticator, Square.OkHttp3;okhttp3.Authenticator
+Square.OkHttp3.IAuthenticator;okhttp3.Authenticator
+okhttp3.Authenticator;okhttp3.Authenticator
+Square.OkHttp3.ICallFactory, Square.OkHttp3;okhttp3.Call$Factory
+Square.OkHttp3.ICallFactory;okhttp3.Call$Factory
+okhttp3.Call$Factory;okhttp3.Call$Factory
+Square.OkHttp3.ICall, Square.OkHttp3;okhttp3.Call
+Square.OkHttp3.ICall;okhttp3.Call
+okhttp3.Call;okhttp3.Call
+Square.OkHttp3.ICallback, Square.OkHttp3;okhttp3.Callback
+Square.OkHttp3.ICallback;okhttp3.Callback
+okhttp3.Callback;okhttp3.Callback
+Square.OkHttp3.IConnection, Square.OkHttp3;okhttp3.Connection
+Square.OkHttp3.IConnection;okhttp3.Connection
+okhttp3.Connection;okhttp3.Connection
+Square.OkHttp3.ICookieJar, Square.OkHttp3;okhttp3.CookieJar
+Square.OkHttp3.ICookieJar;okhttp3.CookieJar
+okhttp3.CookieJar;okhttp3.CookieJar
+Square.OkHttp3.IDns, Square.OkHttp3;okhttp3.Dns
+Square.OkHttp3.IDns;okhttp3.Dns
+okhttp3.Dns;okhttp3.Dns
+Square.OkHttp3.IInterceptorChain, Square.OkHttp3;okhttp3.Interceptor$Chain
+Square.OkHttp3.IInterceptorChain;okhttp3.Interceptor$Chain
+okhttp3.Interceptor$Chain;okhttp3.Interceptor$Chain
+Square.OkHttp3.IInterceptor, Square.OkHttp3;okhttp3.Interceptor
+Square.OkHttp3.IInterceptor;okhttp3.Interceptor
+okhttp3.Interceptor;okhttp3.Interceptor
+Square.OkHttp3.IWebSocketFactory, Square.OkHttp3;okhttp3.WebSocket$Factory
+Square.OkHttp3.IWebSocketFactory;okhttp3.WebSocket$Factory
+okhttp3.WebSocket$Factory;okhttp3.WebSocket$Factory
+Square.OkHttp3.IWebSocket, Square.OkHttp3;okhttp3.WebSocket
+Square.OkHttp3.IWebSocket;okhttp3.WebSocket
+okhttp3.WebSocket;okhttp3.WebSocket
+Square.OkHttp3.Logging.HttpLoggingInterceptor+ILogger, Square.OkHttp3.LoggingInterceptor;okhttp3.logging.HttpLoggingInterceptor$Logger
+Square.OkHttp3.Logging.HttpLoggingInterceptor.ILogger;okhttp3.logging.HttpLoggingInterceptor$Logger
+okhttp3.logging.HttpLoggingInterceptor$Logger;okhttp3.logging.HttpLoggingInterceptor$Logger
+Square.OkIO.IBufferedSink, Square.OkIO.JVM;okio.BufferedSink
+Square.OkIO.IBufferedSink;okio.BufferedSink
+okio.BufferedSink;okio.BufferedSink
+Square.OkIO.IBufferedSource, Square.OkIO.JVM;okio.BufferedSource
+Square.OkIO.IBufferedSource;okio.BufferedSource
+okio.BufferedSource;okio.BufferedSource
+Square.OkIO.IExperimentalFileSystem, Square.OkIO.JVM;okio.ExperimentalFileSystem
+Square.OkIO.IExperimentalFileSystem;okio.ExperimentalFileSystem
+okio.ExperimentalFileSystem;okio.ExperimentalFileSystem
+Square.OkIO.ISink, Square.OkIO.JVM;okio.Sink
+Square.OkIO.ISink;okio.Sink
+okio.Sink;okio.Sink
+Square.OkIO.ISource, Square.OkIO.JVM;okio.Source
+Square.OkIO.ISource;okio.Source
+okio.Source;okio.Source
 Bumptech.Glide.Glide+IRequestOptionsFactory, Xamarin.Android.Glide;com.bumptech.glide.Glide$RequestOptionsFactory
 Bumptech.Glide.Glide.IRequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory
 com.bumptech.glide.Glide$RequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory
@@ -3472,25 +3547,25 @@ kotlinx.coroutines.channels.ReceiveChannel;kotlinx.coroutines.channels.ReceiveCh
 Xamarin.KotlinX.Coroutines.Channels.ISendChannel, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.SendChannel
 Xamarin.KotlinX.Coroutines.Channels.ISendChannel;kotlinx.coroutines.channels.SendChannel
 kotlinx.coroutines.channels.SendChannel;kotlinx.coroutines.channels.SendChannel
-Com.Ntt.Skyway.Plugin.IPlugin, core_skyway;com.ntt.skyway.plugin.Plugin
+Com.Ntt.Skyway.Plugin.IPlugin, skyway-core;com.ntt.skyway.plugin.Plugin
 Com.Ntt.Skyway.Plugin.IPlugin;com.ntt.skyway.plugin.Plugin
 com.ntt.skyway.plugin.Plugin;com.ntt.skyway.plugin.Plugin
-Com.Ntt.Skyway.Core.ISkyWayOptIn, core_skyway;com.ntt.skyway.core.SkyWayOptIn
+Com.Ntt.Skyway.Core.ISkyWayOptIn, skyway-core;com.ntt.skyway.core.SkyWayOptIn
 Com.Ntt.Skyway.Core.ISkyWayOptIn;com.ntt.skyway.core.SkyWayOptIn
 com.ntt.skyway.core.SkyWayOptIn;com.ntt.skyway.core.SkyWayOptIn
-Com.Ntt.Skyway.Core.Content.Sink.IRenderer, core_skyway;com.ntt.skyway.core.content.sink.Renderer
+Com.Ntt.Skyway.Core.Content.Sink.IRenderer, skyway-core;com.ntt.skyway.core.content.sink.Renderer
 Com.Ntt.Skyway.Core.Content.Sink.IRenderer;com.ntt.skyway.core.content.sink.Renderer
 com.ntt.skyway.core.content.sink.Renderer;com.ntt.skyway.core.content.sink.Renderer
-Com.Ntt.Skyway.Core.Channel.IChannel, core_skyway;com.ntt.skyway.core.channel.Channel
+Com.Ntt.Skyway.Core.Channel.IChannel, skyway-core;com.ntt.skyway.core.channel.Channel
 Com.Ntt.Skyway.Core.Channel.IChannel;com.ntt.skyway.core.channel.Channel
 com.ntt.skyway.core.channel.Channel;com.ntt.skyway.core.channel.Channel
-Com.Ntt.Skyway.Core.Channel.IPublication, core_skyway;com.ntt.skyway.core.channel.Publication
+Com.Ntt.Skyway.Core.Channel.IPublication, skyway-core;com.ntt.skyway.core.channel.Publication
 Com.Ntt.Skyway.Core.Channel.IPublication;com.ntt.skyway.core.channel.Publication
 com.ntt.skyway.core.channel.Publication;com.ntt.skyway.core.channel.Publication
-Com.Ntt.Skyway.Core.Channel.ISubscription, core_skyway;com.ntt.skyway.core.channel.Subscription
+Com.Ntt.Skyway.Core.Channel.ISubscription, skyway-core;com.ntt.skyway.core.channel.Subscription
 Com.Ntt.Skyway.Core.Channel.ISubscription;com.ntt.skyway.core.channel.Subscription
 com.ntt.skyway.core.channel.Subscription;com.ntt.skyway.core.channel.Subscription
-Com.Ntt.Skyway.Core.Channel.Member.IMember, core_skyway;com.ntt.skyway.core.channel.member.Member
+Com.Ntt.Skyway.Core.Channel.Member.IMember, skyway-core;com.ntt.skyway.core.channel.member.Member
 Com.Ntt.Skyway.Core.Channel.Member.IMember;com.ntt.skyway.core.channel.member.Member
 com.ntt.skyway.core.channel.member.Member;com.ntt.skyway.core.channel.member.Member
 Org.Webrtc.DataChannel+IObserver, webrtc;org.webrtc.DataChannel$Observer

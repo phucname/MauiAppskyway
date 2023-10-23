@@ -28,6 +28,74 @@
           }
         }
       },
+      "Square.OkHttp3/4.11.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "3.3.0.2",
+          "Xamarin.Kotlin.StdLib": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "4.11.0.2",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO.JVM": "3.3.0.2"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO.JVM/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib.Common": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1802,18 +1870,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "core_skyway/1.0.0": {
+      "skyway-core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.KotlinX.Coroutines.Core": "1.7.3.2"
+          "Xamarin.Kotlin.StdLib": "1.9.10.2"
         },
         "compile": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         }
       },
       "skyway_room/1.0.0": {
@@ -1880,6 +1947,74 @@
           }
         }
       },
+      "Square.OkHttp3/4.11.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "3.3.0.2",
+          "Xamarin.Kotlin.StdLib": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "4.11.0.2",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO.JVM": "3.3.0.2"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO.JVM/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib.Common": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -3654,18 +3789,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "core_skyway/1.0.0": {
+      "skyway-core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.KotlinX.Coroutines.Core": "1.7.3.2"
+          "Xamarin.Kotlin.StdLib": "1.9.10.2"
         },
         "compile": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         }
       },
       "skyway_room/1.0.0": {
@@ -3732,6 +3866,74 @@
           }
         }
       },
+      "Square.OkHttp3/4.11.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "3.3.0.2",
+          "Xamarin.Kotlin.StdLib": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "4.11.0.2",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO.JVM": "3.3.0.2"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO.JVM/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib.Common": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -5506,18 +5708,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "core_skyway/1.0.0": {
+      "skyway-core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.KotlinX.Coroutines.Core": "1.7.3.2"
+          "Xamarin.Kotlin.StdLib": "1.9.10.2"
         },
         "compile": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         }
       },
       "skyway_room/1.0.0": {
@@ -5584,6 +5785,74 @@
           }
         }
       },
+      "Square.OkHttp3/4.11.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "3.3.0.2",
+          "Xamarin.Kotlin.StdLib": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "4.11.0.2",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO.JVM": "3.3.0.2"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO.JVM/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib.Common": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -7358,18 +7627,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "core_skyway/1.0.0": {
+      "skyway-core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.KotlinX.Coroutines.Core": "1.7.3.2"
+          "Xamarin.Kotlin.StdLib": "1.9.10.2"
         },
         "compile": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         }
       },
       "skyway_room/1.0.0": {
@@ -7436,6 +7704,74 @@
           }
         }
       },
+      "Square.OkHttp3/4.11.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "3.3.0.2",
+          "Xamarin.Kotlin.StdLib": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "4.11.0.2",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO.JVM": "3.3.0.2"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Square.OkIO.JVM/3.3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib.Common": "1.9.0",
+          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Square.OkIO.JVM.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -9210,18 +9546,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "core_skyway/1.0.0": {
+      "skyway-core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.KotlinX.Coroutines.Core": "1.7.3.2"
+          "Xamarin.Kotlin.StdLib": "1.9.10.2"
         },
         "compile": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core_skyway.dll": {}
+          "bin/placeholder/skyway-core.dll": {}
         }
       },
       "skyway_room/1.0.0": {
@@ -9322,6 +9657,78 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
         "microsoft.maui.graphics.7.0.86.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
+      ]
+    },
+    "Square.OkHttp3/4.11.0.2": {
+      "sha512": "mejXToXb4IKvES3YzccRySg2O8l1Ie/fglXqY8KFj0uxdnpZJaraFyuCMzJI32e5dUp7DqK1FfWpRtwwbxhjZw==",
+      "type": "package",
+      "path": "square.okhttp3/4.11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid12.0/Square.OkHttp3.dll",
+        "lib/monoandroid12.0/Square.OkHttp3.xml",
+        "lib/net6.0-android31.0/Square.OkHttp3.aar",
+        "lib/net6.0-android31.0/Square.OkHttp3.dll",
+        "lib/net6.0-android31.0/Square.OkHttp3.xml",
+        "square.okhttp3.4.11.0.2.nupkg.sha512",
+        "square.okhttp3.nuspec"
+      ]
+    },
+    "Square.OkHttp3.LoggingInterceptor/4.10.0.1": {
+      "sha512": "jWL6x5Rw3jJcUI/QUKjWbecpyEk6KogRDsMSpK8WOLJjZncFBQIyXISjjQj6sCV4dbEggJTyOgvbQTCzAT3Dkg==",
+      "type": "package",
+      "path": "square.okhttp3.logginginterceptor/4.10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid12.0/Square.OkHttp3.LoggingInterceptor.dll",
+        "lib/monoandroid12.0/Square.OkHttp3.LoggingInterceptor.xml",
+        "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.aar",
+        "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.dll",
+        "lib/net6.0-android31.0/Square.OkHttp3.LoggingInterceptor.xml",
+        "square.okhttp3.logginginterceptor.4.10.0.1.nupkg.sha512",
+        "square.okhttp3.logginginterceptor.nuspec"
+      ]
+    },
+    "Square.OkIO/3.3.0.2": {
+      "sha512": "YJzH7eEQSLfyeWrOfKgwZlA+KxuNxtBKdyxc9hq2eRVQqKZXotWWaoOREGoEwzyuFCUviocqLPv/2HTHrTvlSA==",
+      "type": "package",
+      "path": "square.okio/3.3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid12.0/Square.OkIO.dll",
+        "lib/monoandroid12.0/Square.OkIO.xml",
+        "lib/net6.0-android31.0/Square.OkIO.aar",
+        "lib/net6.0-android31.0/Square.OkIO.dll",
+        "lib/net6.0-android31.0/Square.OkIO.xml",
+        "square.okio.3.3.0.2.nupkg.sha512",
+        "square.okio.nuspec"
+      ]
+    },
+    "Square.OkIO.JVM/3.3.0.2": {
+      "sha512": "lPC2mSEwlZvoBNMHAFf6njTa81ZrknGSPaJsP7r6UvZ3KcHiC6LXl3NFv8Pn65Fpc1zd6enFIPr7dB3oVT0VdQ==",
+      "type": "package",
+      "path": "square.okio.jvm/3.3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid12.0/Square.OkIO.JVM.dll",
+        "lib/monoandroid12.0/Square.OkIO.JVM.xml",
+        "lib/net6.0-android31.0/Square.OkIO.JVM.aar",
+        "lib/net6.0-android31.0/Square.OkIO.JVM.dll",
+        "lib/net6.0-android31.0/Square.OkIO.JVM.xml",
+        "square.okio.jvm.3.3.0.2.nupkg.sha512",
+        "square.okio.jvm.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -11439,10 +11846,10 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
-    "core_skyway/1.0.0": {
+    "skyway-core/1.0.0": {
       "type": "project",
-      "path": "../core_skyway/core_skyway.csproj",
-      "msbuildProject": "../core_skyway/core_skyway.csproj"
+      "path": "../skyway-core/skyway-core.csproj",
+      "msbuildProject": "../skyway-core/skyway-core.csproj"
     },
     "skyway_room/1.0.0": {
       "type": "project",
@@ -11463,6 +11870,8 @@
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
       "Microsoft.Maui.Graphics >= 7.0.86",
+      "Square.OkHttp3 >= 4.11.0.2",
+      "Square.OkHttp3.LoggingInterceptor >= 4.10.0.1",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -11475,9 +11884,8 @@
       "Xamarin.Essentials >= 1.8.0",
       "Xamarin.Google.Android.Material >= 1.7.0",
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1",
-      "Xamarin.Kotlin.StdLib >= 1.9.10.2",
       "Xamarin.KotlinX.Coroutines.Core >= 1.7.3.2",
-      "core_skyway >= 1.0.0",
+      "skyway-core >= 1.0.0",
       "skyway_room >= 1.0.0",
       "skyway_sfubot >= 1.0.0",
       "webrtc >= 1.0.0"
@@ -11516,8 +11924,8 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\Dell\\project\\MauiAppskyway\\core_skyway\\core_skyway.csproj": {
-              "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\core_skyway\\core_skyway.csproj"
+            "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway-core\\skyway-core.csproj": {
+              "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway-core\\skyway-core.csproj"
             },
             "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj": {
               "projectPath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj"
@@ -11545,6 +11953,14 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
+          },
+          "Square.OkHttp3": {
+            "target": "Package",
+            "version": "[4.11.0.2, )"
+          },
+          "Square.OkHttp3.LoggingInterceptor": {
+            "target": "Package",
+            "version": "[4.10.0.1, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -11604,10 +12020,6 @@
             "target": "Package",
             "version": "[1.7.0.1, )",
             "autoReferenced": true
-          },
-          "Xamarin.Kotlin.StdLib": {
-            "target": "Package",
-            "version": "[1.9.10.2, )"
           },
           "Xamarin.KotlinX.Coroutines.Core": {
             "target": "Package",

@@ -392,10 +392,8 @@ namespace Com.Ntt.Skyway.Core.Channel {
 			}
 		}
 
-        Content.Stream? IPublication.Stream => throw new NotImplementedException();
-
-        // Metadata.xml XPath method reference: path="/api/package[@name='com.ntt.skyway.core.channel']/class[@name='PublicationImpl']/method[@name='cancel' and count(parameter)=1 and parameter[1][@type='kotlin.coroutines.Continuation&lt;? super java.lang.Boolean&gt;']]"
-        [Register ("cancel", "(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "")]
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.ntt.skyway.core.channel']/class[@name='PublicationImpl']/method[@name='cancel' and count(parameter)=1 and parameter[1][@type='kotlin.coroutines.Continuation&lt;? super java.lang.Boolean&gt;']]"
+		[Register ("cancel", "(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "")]
 		public unsafe global::Java.Lang.Object? Cancel (global::Kotlin.Coroutines.IContinuation _completion)
 		{
 			const string __id = "cancel.(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;";
@@ -503,9 +501,5 @@ namespace Com.Ntt.Skyway.Core.Channel {
 			}
 		}
 
-        public IPublication.State GetState()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

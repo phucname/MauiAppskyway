@@ -12,14 +12,17 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Resources\layout\Layout1.xml" />
+    <None Remove="Resources\layout\LayoutP2PRoom.xml" />
+    <None Remove="Resources\layout\list_item_surface_view_renderer.xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Square.OkHttp3" Version="4.11.0.2" />
+    <PackageReference Include="Square.OkHttp3.LoggingInterceptor" Version="4.10.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.10.2" />
     <PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.3.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\core_skyway\core_skyway.csproj" />
+    <ProjectReference Include="..\skyway-core\skyway-core.csproj" />
     <ProjectReference Include="..\skyway_room\skyway_room.csproj" />
     <ProjectReference Include="..\skyway_sfubot\skyway_sfubot.csproj" />
     <ProjectReference Include="..\webrtc\webrtc.csproj" />

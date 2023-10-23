@@ -1,164 +1,13 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-android33.0": {
-      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
-        }
-      },
+    "net7.0": {
       "Xamarin.Kotlin.StdLib/1.9.10.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "24.0.1.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.9.10.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
-        }
-      },
-      "Xamarin.Kotlin.StdLib.Common/1.9.10.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets": {}
-        }
-      },
-      "Xamarin.Kotlin.StdLib.Jdk7/1.9.10.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.targets": {}
-        }
-      },
-      "Xamarin.Kotlin.StdLib.Jdk8/1.9.10.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Kotlin.StdLib": "1.9.10.2",
-          "Xamarin.Kotlin.StdLib.Jdk7": "1.9.10.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.targets": {}
-        }
-      },
-      "Xamarin.KotlinX.Coroutines.Core/1.7.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.KotlinX.Coroutines.Core.Jvm": "1.7.3.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.targets": {}
-        }
-      },
-      "Xamarin.KotlinX.Coroutines.Core.Jvm/1.7.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "24.0.1.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.9.10.2",
-          "Xamarin.Kotlin.StdLib.Jdk8": "1.9.10.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
+        "type": "package"
       }
     }
   },
   "libraries": {
-    "Xamarin.Jetbrains.Annotations/24.0.1.5": {
-      "sha512": "GUqjmOCfZGBnHa6VlllSxAFvL70dR2YfLMnp/SBUPSiEkRASuBdo9nN3KFQpk+RqXaPjMtLIGg+Fbg3VzTjwxg==",
-      "type": "package",
-      "path": "xamarin.jetbrains.annotations/24.0.1.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets",
-        "build/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
-        "jar/org.jetbrains.annotations-24.0.1.jar",
-        "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll",
-        "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.xml",
-        "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll",
-        "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.xml",
-        "readme.md",
-        "xamarin.jetbrains.annotations.24.0.1.5.nupkg.sha512",
-        "xamarin.jetbrains.annotations.nuspec"
-      ]
-    },
     "Xamarin.Kotlin.StdLib/1.9.10.2": {
       "sha512": "zHl9MHS/5BB0s7TH2asGofvYQeC2Ml6PTeTKQP3JZ+FBEo+Es9bYjkdK9Zhz5L2mplQGGnj0DmEMAJLmT9dZ0w==",
       "type": "package",
@@ -181,127 +30,11 @@
         "xamarin.kotlin.stdlib.1.9.10.2.nupkg.sha512",
         "xamarin.kotlin.stdlib.nuspec"
       ]
-    },
-    "Xamarin.Kotlin.StdLib.Common/1.9.10.2": {
-      "sha512": "DNIG7tvONIrT22H7qJWOTXw0Flm6x9gVO9NaUg7R75sfVMX3yOkUn/Ho+nXLAHkV6WEqCot7LVDWK7e0iuDOmw==",
-      "type": "package",
-      "path": "xamarin.kotlin.stdlib.common/1.9.10.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.9.10.jar",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.xml",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.xml",
-        "readme.md",
-        "xamarin.kotlin.stdlib.common.1.9.10.2.nupkg.sha512",
-        "xamarin.kotlin.stdlib.common.nuspec"
-      ]
-    },
-    "Xamarin.Kotlin.StdLib.Jdk7/1.9.10.2": {
-      "sha512": "wyp33De+7yweYiogrPdzxbrehXPmPEPN5+3kfm2DuSDnBQ2SDtcwzNNjDDA+4lHfBsiZ2xLlv69pK4EmnsaaGw==",
-      "type": "package",
-      "path": "xamarin.kotlin.stdlib.jdk7/1.9.10.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk7.targets",
-        "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk7.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.9.10.jar",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk7.dll",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk7.xml",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.dll",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk7.xml",
-        "readme.md",
-        "xamarin.kotlin.stdlib.jdk7.1.9.10.2.nupkg.sha512",
-        "xamarin.kotlin.stdlib.jdk7.nuspec"
-      ]
-    },
-    "Xamarin.Kotlin.StdLib.Jdk8/1.9.10.2": {
-      "sha512": "Y02jFdk900ut25cV6cuygoQv7mkk+VI+wnKdhlzg9lJsD4ixdu9EBWlCdU8SL2GfOa/WukBjWjQmLseXFa/MvA==",
-      "type": "package",
-      "path": "xamarin.kotlin.stdlib.jdk8/1.9.10.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk8.targets",
-        "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk8.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.9.10.jar",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk8.dll",
-        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Jdk8.xml",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.dll",
-        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Jdk8.xml",
-        "readme.md",
-        "xamarin.kotlin.stdlib.jdk8.1.9.10.2.nupkg.sha512",
-        "xamarin.kotlin.stdlib.jdk8.nuspec"
-      ]
-    },
-    "Xamarin.KotlinX.Coroutines.Core/1.7.3.2": {
-      "sha512": "UbPLFarDBgs3+R7NWwEFAKiisS/CqGeYTI2EbUfg1WzO/VzOZFC3YutXqunC+La876xJ74Jg0BYrEuqAffi0Mw==",
-      "type": "package",
-      "path": "xamarin.kotlinx.coroutines.core/1.7.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.targets",
-        "build/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.targets",
-        "jar/org.jetbrains.kotlinx.kotlinx-coroutines-core-1.7.3.jar",
-        "lib/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.dll",
-        "lib/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.xml",
-        "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.dll",
-        "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.xml",
-        "readme.md",
-        "xamarin.kotlinx.coroutines.core.1.7.3.2.nupkg.sha512",
-        "xamarin.kotlinx.coroutines.core.nuspec"
-      ]
-    },
-    "Xamarin.KotlinX.Coroutines.Core.Jvm/1.7.3.2": {
-      "sha512": "HVLQtdbj/40sF/Gyo3ltTWKlsGMhZOQMGKMd2jzCXI4fOQ/1kwR1ci/5WgliISmk9kmFCQVISs2AtAJ+Ml+g5A==",
-      "type": "package",
-      "path": "xamarin.kotlinx.coroutines.core.jvm/1.7.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets",
-        "build/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets",
-        "jar/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.7.3.jar",
-        "lib/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
-        "lib/monoandroid12.0/Xamarin.KotlinX.Coroutines.Core.Jvm.xml",
-        "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
-        "lib/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.xml",
-        "readme.md",
-        "xamarin.kotlinx.coroutines.core.jvm.1.7.3.2.nupkg.sha512",
-        "xamarin.kotlinx.coroutines.core.jvm.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0-android33.0": [
-      "Xamarin.Kotlin.StdLib >= 1.9.10.2",
-      "Xamarin.KotlinX.Coroutines.Core >= 1.7.3.2"
+    "net7.0": [
+      "Xamarin.Kotlin.StdLib >= 1.9.10.2"
     ]
   },
   "packageFolders": {
@@ -326,7 +59,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-android"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -334,8 +67,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0-android33.0": {
-          "targetAlias": "net7.0-android",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -346,16 +79,12 @@
       }
     },
     "frameworks": {
-      "net7.0-android33.0": {
-        "targetAlias": "net7.0-android",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Xamarin.Kotlin.StdLib": {
             "target": "Package",
             "version": "[1.9.10.2, )"
-          },
-          "Xamarin.KotlinX.Coroutines.Core": {
-            "target": "Package",
-            "version": "[1.7.3.2, )"
           }
         },
         "imports": [
@@ -370,9 +99,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.Android": {
-            "privateAssets": "all"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
@@ -380,5 +106,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Kotlin.StdLib 1.9.10.2 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package Xamarin.Kotlin.StdLib 1.9.10.2 supports:\r\n  - monoandroid12.0 (MonoAndroid,Version=v12.0)\r\n  - net6.0-android31.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Xamarin.Kotlin.StdLib",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

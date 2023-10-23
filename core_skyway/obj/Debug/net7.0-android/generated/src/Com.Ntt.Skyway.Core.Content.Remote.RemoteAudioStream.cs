@@ -73,9 +73,5 @@ namespace Com.Ntt.Skyway.Core.Content.Remote {
 			}
 		}
 
-        public override ContentType GetContentType()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

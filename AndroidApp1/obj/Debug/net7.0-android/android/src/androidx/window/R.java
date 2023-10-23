@@ -25,9 +25,9 @@ public final class R {
 	}
 	public static final class id {
 		public static final int androidx_window_activity_scope = 0x7f08004d;
-		public static final int locale = 0x7f0800fa;
-		public static final int ltr = 0x7f0800fb;
-		public static final int rtl = 0x7f08016e;
+		public static final int locale = 0x7f0800fb;
+		public static final int ltr = 0x7f0800fc;
+		public static final int rtl = 0x7f080170;
 	}
 	public static final class styleable {
 		public static final int[] ActivityFilter = new int[] { 0x7f030027, 0x7f030029 };

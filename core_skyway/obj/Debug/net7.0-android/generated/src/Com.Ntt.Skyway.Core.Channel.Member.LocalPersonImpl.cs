@@ -533,9 +533,5 @@ namespace Com.Ntt.Skyway.Core.Channel.Member {
 			}
 		}
 
-        public override IMember.State GetState()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

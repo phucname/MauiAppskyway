@@ -507,14 +507,9 @@ namespace Com.Ntt.Skyway.Core.Channel.Member {
 			var __this = global::Java.Lang.Object.GetObject<global::Com.Ntt.Skyway.Core.Channel.Member.RemoteMember> (jnienv, native__this, JniHandleOwnership.DoNotTransfer)!;
 			return global::Android.Runtime.JavaList<global::Com.Ntt.Skyway.Core.Channel.ISubscription>.ToLocalJniHandle (__this.Subscriptions);
 		}
-
-        public IMember.Side GetSide()
-        {
-            throw new NotImplementedException();
-        }
 #pragma warning restore 0169
 
-        public abstract global::System.Collections.Generic.IList<global::Com.Ntt.Skyway.Core.Channel.ISubscription> Subscriptions {
+		public abstract global::System.Collections.Generic.IList<global::Com.Ntt.Skyway.Core.Channel.ISubscription> Subscriptions {
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.ntt.skyway.core.channel.member']/class[@name='RemoteMember']/method[@name='getSubscriptions' and count(parameter)=0]"
 			[Register ("getSubscriptions", "()Ljava/util/List;", "GetGetSubscriptionsHandler")]
 			get; 

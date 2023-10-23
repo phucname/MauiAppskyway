@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-android"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-android33.0": {
-            "targetAlias": "net7.0-android",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +42,12 @@
         }
       },
       "frameworks": {
-        "net7.0-android33.0": {
-          "targetAlias": "net7.0-android",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Xamarin.Kotlin.StdLib": {
               "target": "Package",
               "version": "[1.9.10.2, )"
-            },
-            "Xamarin.KotlinX.Coroutines.Core": {
-              "target": "Package",
-              "version": "[1.7.3.2, )"
             }
           },
           "imports": [
@@ -66,9 +62,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.Android": {
-              "privateAssets": "all"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

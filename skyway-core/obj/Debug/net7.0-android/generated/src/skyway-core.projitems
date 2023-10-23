@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28;ANDROID_29;ANDROID_30;ANDROID_31;ANDROID_32;ANDROID_33</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.ChannelImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.IChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.IPublication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.ISubscription.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Member.IMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Member.LocalPerson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Member.LocalPersonImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Member.RemoteMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Member.RemoteMemberImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.PublicationImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Channel.SubscriptionImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Codec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Encoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.LocalAudioStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.LocalDataStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.LocalStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.LocalVideoStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.AudioSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.CameraSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.CustomVideoFrameSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.DataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.ScreenSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.VideoFileSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Local.Source.VideoSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Remote.RemoteAudioStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Remote.RemoteDataStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Remote.RemoteStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Remote.RemoteVideoStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Sink.AudioDestination.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Sink.CustomRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Sink.IRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Sink.SurfaceViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.Stream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.WebRTCStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Content.WebRTCStatsReport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.ISkyWayOptIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Network.HttpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Network.WebSocketClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Network.WebSocketClientFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.SkyWayContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.SkyWayOptInAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Core.Util.Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Plugin.IPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Plugin.RemotePerson.RemotePerson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Plugin.RemotePerson.RemotePersonPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Plugin.Unknown.Unknown.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Ntt.Skyway.Plugin.Unknown.UnknownPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

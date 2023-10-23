@@ -26,6 +26,7 @@
       </intent-filter>
     </activity>
     <activity android:name="crc64f3f6dc613f2250a0.Activity1" android:label="Activity1" />
+    <activity android:name="crc64f3f6dc613f2250a0.ActivityP2PRoom" android:label="ActivityP2PRoom" />
     <activity android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" android:exported="true" />
     <provider android:name="microsoft.maui.essentials.fileProvider" android:authorities="com.companyname.AndroidApp1.fileProvider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths" />

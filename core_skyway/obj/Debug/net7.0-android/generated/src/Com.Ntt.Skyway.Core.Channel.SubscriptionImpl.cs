@@ -246,9 +246,5 @@ namespace Com.Ntt.Skyway.Core.Channel {
 			}
 		}
 
-        public ISubscription.State GetState()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

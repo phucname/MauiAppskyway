@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using Android.Runtime;
-using Com.Ntt.Skyway.Core.Channel.Member;
 using Java.Interop;
 
 namespace Com.Ntt.Skyway.Plugin.Unknown {
@@ -63,14 +62,5 @@ namespace Com.Ntt.Skyway.Plugin.Unknown {
 			}
 		}
 
-        public override IMember.State GetState()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override IMember.Type GetType()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }

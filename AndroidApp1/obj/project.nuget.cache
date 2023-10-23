@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "rJcwl+NSjE7FR7qtDo3PAWaxDYpEObZvNKjSsBoAe1K50hdX0txyoLc7q3QqewxrvQ+k7Wpv0ZwrOh3Iuz99ag==",
+  "dgSpecHash": "McmlmBefalrJYwXN6zLuzQ59SunBr+L1TfxH2Ojo+LIvlODhzSaBsfV1eV8BadVUyXfw7qi/rdsEkbkSlx0nNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dell\\project\\MauiAppskyway\\AndroidApp1\\Skyway_android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.maui.graphics\\7.0.86\\microsoft.maui.graphics.7.0.86.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\square.okhttp3\\4.11.0.2\\square.okhttp3.4.11.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\square.okhttp3.logginginterceptor\\4.10.0.1\\square.okhttp3.logginginterceptor.4.10.0.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\square.okio\\3.3.0.2\\square.okio.3.3.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\square.okio.jvm\\3.3.0.2\\square.okio.jvm.3.3.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",

@@ -4,7 +4,11 @@
     <AndroidDesignerPreferredDevice>7.3in Foldable</AndroidDesignerPreferredDevice>
     <SelectedDevice>Pixel_6_Pro_API_31</SelectedDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <ActiveDebugProfile>Pixel 6 Pro API 31 (Android 12.0 - API 31)</ActiveDebugProfile>
-    <DefaultDevice>Pixel_6_Pro_API_31</DefaultDevice>
+    <ActiveDebugProfile>Pixel_6_API_31</ActiveDebugProfile>
+    <DefaultDevice>Pixel_6_API_31</DefaultDevice>
+    <_LastSelectedProfileId>C:\Users\Dell\project\MauiAppskyway\AndroidApp1\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

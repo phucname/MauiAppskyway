@@ -1,0 +1,1323 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.ntt.skyway.plugin.sfuBot"
+    jni-name="com/ntt/skyway/plugin/sfuBot">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="Forwarding"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding;"
+      source-file-name="Forwarding.kt"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Forwarding"
+        static="false"
+        visibility="kotlin-internal"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/Channel;Ljava/lang/String;Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;Lcom/ntt/skyway/core/channel/Publication;Lcom/ntt/skyway/core/channel/Publication;J)V">
+        <parameter
+          name="channel"
+          type="com.ntt.skyway.core.channel.Channel"
+          jni-type="Lcom/ntt/skyway/core/channel/Channel;"
+          not-null="true" />
+        <parameter
+          name="id"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+        <parameter
+          name="configure"
+          type="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+          not-null="true" />
+        <parameter
+          name="originPublication"
+          type="com.ntt.skyway.core.channel.Publication"
+          jni-type="Lcom/ntt/skyway/core/channel/Publication;"
+          not-null="true" />
+        <parameter
+          name="relayingPublication"
+          type="com.ntt.skyway.core.channel.Publication"
+          jni-type="Lcom/ntt/skyway/core/channel/Publication;"
+          not-null="true" />
+        <parameter
+          name="nativePointer"
+          type="long"
+          jni-type="J" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getChannel"
+        native="false"
+        return="com.ntt.skyway.core.channel.Channel"
+        jni-return="Lcom/ntt/skyway/core/channel/Channel;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/ntt/skyway/core/channel/Channel;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getConfigure"
+        native="false"
+        return="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+        jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getId"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getNativePointer$sfubot_release"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="kotlin-internal"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getOriginPublication"
+        native="false"
+        return="com.ntt.skyway.core.channel.Publication"
+        jni-return="Lcom/ntt/skyway/core/channel/Publication;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/ntt/skyway/core/channel/Publication;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getRelayingPublication"
+        native="false"
+        return="com.ntt.skyway.core.channel.Publication"
+        jni-return="Lcom/ntt/skyway/core/channel/Publication;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/ntt/skyway/core/channel/Publication;"
+        return-not-null="true" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="Companion"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.ntt.skyway.plugin.sfuBot.Forwarding.Companion"
+        type-generic-aware="com.ntt.skyway.plugin.sfuBot.Forwarding.Companion"
+        jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion;"
+        not-null="true"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="Forwarding.Companion"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion;"
+      source-file-name="Forwarding.kt"
+      static="true"
+      visibility="private">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Forwarding.Companion"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lkotlin/jvm/internal/DefaultConstructorMarker;)V">
+        <parameter
+          name="$constructor_marker"
+          type="kotlin.jvm.internal.DefaultConstructorMarker"
+          jni-type="Lkotlin/jvm/internal/DefaultConstructorMarker;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="com.ntt.skyway.plugin.sfuBot.Forwarding"
+        jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/Channel;Lcom/ntt/skyway/core/channel/Publication;Ljava/lang/String;)Lcom/ntt/skyway/plugin/sfuBot/Forwarding;"
+        return-not-null="true">
+        <parameter
+          name="channel"
+          type="com.ntt.skyway.core.channel.Channel"
+          jni-type="Lcom/ntt/skyway/core/channel/Channel;"
+          not-null="true" />
+        <parameter
+          name="originPublication"
+          type="com.ntt.skyway.core.channel.Publication"
+          jni-type="Lcom/ntt/skyway/core/channel/Publication;"
+          not-null="true" />
+        <parameter
+          name="forwardingJson"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion;"
+      enclosing-method-name="create"
+      enclosing-method-signature="(Lcom/ntt/skyway/core/channel/Channel;Lcom/ntt/skyway/core/channel/Publication;Ljava/lang/String;)Lcom/ntt/skyway/plugin/sfuBot/Forwarding;"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="Forwarding.Companion.create.1"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion$create$1;"
+      source-file-name="Forwarding.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lkotlin/Unit;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="Forwarding.Configure"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+      source-file-name="Forwarding.kt"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Forwarding.Configure"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="maxSubscribers"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="component1"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="copy$default"
+        native="false"
+        return="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+        jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;IILjava/lang/Object;)Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;">
+        <parameter
+          name="p0"
+          type="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="copy"
+        native="false"
+        return="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+        jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;"
+        return-not-null="true">
+        <parameter
+          name="maxSubscribers"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="other"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getMaxSubscribers"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;"
+        return-not-null="true" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/ntt/skyway/core/channel/member/RemoteMember;"
+      extends="com.ntt.skyway.core.channel.member.RemoteMember"
+      extends-generic-aware="com.ntt.skyway.core.channel.member.RemoteMember"
+      final="true"
+      name="SFUBot"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;"
+      source-file-name="SFUBot.kt"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SFUBot"
+        static="false"
+        visibility="kotlin-internal"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/member/Member$Dto;)V">
+        <parameter
+          name="dto"
+          type="com.ntt.skyway.core.channel.member.Member.Dto"
+          jni-type="Lcom/ntt/skyway/core/channel/member/Member$Dto;"
+          not-null="true" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="access$get_forwardings$p"
+        native="false"
+        return="java.util.List"
+        jni-return="Ljava/util/List;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/SFUBot;)Ljava/util/List;">
+        <parameter
+          name="$this"
+          type="com.ntt.skyway.plugin.sfuBot.SFUBot"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="access$nativeCreateBot"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(J)Ljava/lang/String;">
+        <parameter
+          name="channelPtr"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="access$nativeStartForwarding"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/SFUBot;JJLjava/lang/Integer;)Ljava/lang/String;">
+        <parameter
+          name="$this"
+          type="com.ntt.skyway.plugin.sfuBot.SFUBot"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;" />
+        <parameter
+          name="ptr"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="publicationPtr"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="maxSubscribers"
+          type="java.lang.Integer"
+          jni-type="Ljava/lang/Integer;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="access$nativeStopForwarding"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/SFUBot;JJ)Z">
+        <parameter
+          name="$this"
+          type="com.ntt.skyway.plugin.sfuBot.SFUBot"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;" />
+        <parameter
+          name="ptr"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="forwardingPtr"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="createBot"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/Channel;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="channel"
+          type="com.ntt.skyway.core.channel.Channel"
+          jni-type="Lcom/ntt/skyway/core/channel/Channel;"
+          not-null="true" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.SFUBot&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/SFUBot;&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="getForwardings"
+        native="false"
+        return="java.util.Set&lt;com.ntt.skyway.plugin.sfuBot.Forwarding&gt;"
+        jni-return="Ljava/util/Set&lt;Lcom/ntt/skyway/plugin/sfuBot/Forwarding;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Set;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubType"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getType"
+        native="false"
+        return="com.ntt.skyway.core.channel.member.Member.Type"
+        jni-return="Lcom/ntt/skyway/core/channel/member/Member$Type;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/ntt/skyway/core/channel/member/Member$Type;"
+        return-not-null="true" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startForwarding$default"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/SFUBot;Lcom/ntt/skyway/core/channel/Publication;Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="com.ntt.skyway.plugin.sfuBot.SFUBot"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;" />
+        <parameter
+          name="p1"
+          type="com.ntt.skyway.core.channel.Publication"
+          jni-type="Lcom/ntt/skyway/core/channel/Publication;" />
+        <parameter
+          name="p2"
+          type="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" />
+        <parameter
+          name="p3"
+          type="kotlin.coroutines.Continuation"
+          jni-type="Lkotlin/coroutines/Continuation;" />
+        <parameter
+          name="p4"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p5"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="startForwarding"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/Publication;Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="publication"
+          type="com.ntt.skyway.core.channel.Publication"
+          jni-type="Lcom/ntt/skyway/core/channel/Publication;"
+          not-null="true" />
+        <parameter
+          name="configure"
+          type="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.Forwarding&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/Forwarding;&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="stopForwarding"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/Forwarding;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="forwarding"
+          type="com.ntt.skyway.plugin.sfuBot.Forwarding"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/Forwarding;"
+          not-null="true" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;? super java.lang.Boolean&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Ljava/lang/Boolean;&gt;;"
+          not-null="true" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="Companion"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.ntt.skyway.plugin.sfuBot.SFUBot.Companion"
+        type-generic-aware="com.ntt.skyway.plugin.sfuBot.SFUBot.Companion"
+        jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion;"
+        not-null="true"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="SFUBot.Companion"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion;"
+      source-file-name="SFUBot.kt"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SFUBot.Companion"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lkotlin/jvm/internal/DefaultConstructorMarker;)V">
+        <parameter
+          name="$constructor_marker"
+          type="kotlin.jvm.internal.DefaultConstructorMarker"
+          jni-type="Lkotlin/jvm/internal/DefaultConstructorMarker;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="access$nativeCreateBot"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="true"
+        jni-signature="(Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion;J)Ljava/lang/String;">
+        <parameter
+          name="$this"
+          type="com.ntt.skyway.plugin.sfuBot.SFUBot.Companion"
+          jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion;" />
+        <parameter
+          name="channelPtr"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="createBot"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/Channel;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="channel"
+          type="com.ntt.skyway.core.channel.Channel"
+          jni-type="Lcom/ntt/skyway/core/channel/Channel;"
+          not-null="true" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.SFUBot&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/SFUBot;&gt;;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion;"
+      enclosing-method-name="createBot"
+      enclosing-method-signature="(Lcom/ntt/skyway/core/channel/Channel;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="SFUBot.Companion.createBot.2"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$Companion$createBot$2;"
+      source-file-name="SFUBot.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.SFUBot&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/SFUBot;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.SFUBot&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/SFUBot;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;"
+      enclosing-method-name="startForwarding"
+      enclosing-method-signature="(Lcom/ntt/skyway/core/channel/Publication;Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="SFUBot.startForwarding.2"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$startForwarding$2;"
+      source-file-name="SFUBot.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.Forwarding&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/Forwarding;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super com.ntt.skyway.plugin.sfuBot.Forwarding&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Lcom/ntt/skyway/plugin/sfuBot/Forwarding;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/ntt/skyway/plugin/sfuBot/SFUBot;"
+      enclosing-method-name="stopForwarding"
+      enclosing-method-signature="(Lcom/ntt/skyway/plugin/sfuBot/Forwarding;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+      jni-extends="Lkotlin/coroutines/jvm/internal/SuspendLambda;"
+      extends="kotlin.coroutines.jvm.internal.SuspendLambda"
+      extends-generic-aware="kotlin.coroutines.jvm.internal.SuspendLambda"
+      final="true"
+      name="SFUBot.stopForwarding.2"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBot$stopForwarding$2;"
+      source-file-name="SFUBot.kt"
+      static="true"
+      visibility="">
+      <implements
+        name="kotlin.jvm.functions.Function2"
+        name-generic-aware="kotlin.jvm.functions.Function2&lt;kotlinx.coroutines.CoroutineScope, kotlin.coroutines.Continuation&lt;? super java.lang.Boolean&gt;, java.lang.Object&gt;"
+        jni-type="Lkotlin/jvm/functions/Function2&lt;Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation&lt;-Ljava/lang/Boolean;&gt;;Ljava/lang/Object;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="create"
+        native="false"
+        return="kotlin.coroutines.Continuation&lt;kotlin.Unit&gt;"
+        jni-return="Lkotlin/coroutines/Continuation&lt;Lkotlin/Unit;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+        return-not-null="true">
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="$completion"
+          type="kotlin.coroutines.Continuation&lt;?&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;*&gt;;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invoke"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;">
+        <parameter
+          name="p1"
+          type="kotlinx.coroutines.CoroutineScope"
+          jni-type="Lkotlinx/coroutines/CoroutineScope;"
+          not-null="true" />
+        <parameter
+          name="p2"
+          type="kotlin.coroutines.Continuation&lt;? super java.lang.Boolean&gt;"
+          jni-type="Lkotlin/coroutines/Continuation&lt;-Ljava/lang/Boolean;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="invokeSuspend"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;"
+          not-null="true" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="SFUBotPlugin"
+      jni-signature="Lcom/ntt/skyway/plugin/sfuBot/SFUBotPlugin;"
+      source-file-name="SFUBotPlugin.kt"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.ntt.skyway.plugin.Plugin"
+        name-generic-aware="com.ntt.skyway.plugin.Plugin"
+        jni-type="Lcom/ntt/skyway/plugin/Plugin;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SFUBotPlugin"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createRemoteMember"
+        native="false"
+        return="com.ntt.skyway.core.channel.member.RemoteMember"
+        jni-return="Lcom/ntt/skyway/core/channel/member/RemoteMember;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/ntt/skyway/core/channel/member/Member$Dto;)Lcom/ntt/skyway/core/channel/member/RemoteMember;"
+        return-not-null="true">
+        <parameter
+          name="dto"
+          type="com.ntt.skyway.core.channel.member.Member.Dto"
+          jni-type="Lcom/ntt/skyway/core/channel/member/Member$Dto;"
+          not-null="true" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;"
+        return-not-null="true" />
+    </class>
+  </package>
+  <package
+    name="com.ntt.skyway.plugin.sfubot"
+    jni-name="com/ntt/skyway/plugin/sfubot">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/ntt/skyway/plugin/sfubot/BuildConfig;"
+      source-file-name="BuildConfig.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LIBRARY_PACKAGE_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.ntt.skyway.plugin.sfubot&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+</api>

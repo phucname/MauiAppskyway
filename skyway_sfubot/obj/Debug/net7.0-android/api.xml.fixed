@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api api-source="JavaTypeSystem">
+  <package name="com.ntt.skyway.plugin.sfuBot" jni-name="com/ntt/skyway/plugin/sfuBot">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Forwarding" static="false" visibility="public" jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="getConfigure" jni-signature="()Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" bridge="false" native="false" return="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure" jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="getId" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true" />
+      <field deprecated="not deprecated" final="true" name="Companion" jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion;" not-null="true" static="true" transient="false" type="com.ntt.skyway.plugin.sfuBot.Forwarding.Companion" type-generic-aware="com.ntt.skyway.plugin.sfuBot.Forwarding.Companion" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Forwarding.Companion" static="true" visibility="private" jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Companion;">
+      <constructor deprecated="not deprecated" final="false" name="Forwarding.Companion" jni-signature="(Lkotlin/jvm/internal/DefaultConstructorMarker;)V" bridge="false" static="false" type="com.ntt.skyway.plugin.sfuBot.Forwarding.Companion" synthetic="true" visibility="public">
+        <parameter name="$constructor_marker" type="kotlin.jvm.internal.DefaultConstructorMarker" jni-type="Lkotlin/jvm/internal/DefaultConstructorMarker;" />
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Forwarding.Configure" static="true" visibility="public" jni-signature="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;">
+      <constructor deprecated="not deprecated" final="false" name="Forwarding.Configure" jni-signature="(I)V" bridge="false" static="false" type="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure" synthetic="false" visibility="public">
+        <parameter name="maxSubscribers" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component1" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="true" name="copy" jni-signature="(I)Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" bridge="false" native="false" return="com.ntt.skyway.plugin.sfuBot.Forwarding.Configure" jni-return="Lcom/ntt/skyway/plugin/sfuBot/Forwarding$Configure;" static="false" synchronized="false" synthetic="false" visibility="public" return-not-null="true">
+        <parameter name="maxSubscribers" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMaxSubscribers" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+  </package>
+  <package name="com.ntt.skyway.plugin.sfubot" jni-name="com/ntt/skyway/plugin/sfubot">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/ntt/skyway/plugin/sfubot/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.ntt.skyway.plugin.sfubot.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.ntt.skyway.plugin.sfubot&quot;" visibility="public" volatile="false" />
+    </class>
+  </package>
+</api>

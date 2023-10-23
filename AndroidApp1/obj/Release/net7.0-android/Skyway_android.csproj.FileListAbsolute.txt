@@ -1,0 +1,3 @@
+C:\Users\Dell\project\MauiAppskyway\AndroidApp1\obj\Release\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+C:\Users\Dell\project\MauiAppskyway\AndroidApp1\obj\Release\net7.0-android\build.props
+C:\Users\Dell\project\MauiAppskyway\AndroidApp1\obj\Release\net7.0-android\adb.props

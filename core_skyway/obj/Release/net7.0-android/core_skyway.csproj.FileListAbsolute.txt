@@ -1,0 +1,15 @@
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\build.props
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\adb.props
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\core_skyway.csproj.AssemblyReference.cache
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\libraryprojectimports.cache
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\res.flag
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\R.txt
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\R.cs.flag
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\class-parse.rsp
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\java-resolution-report.log
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\core_skyway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\core_skyway.AssemblyInfoInputs.cache
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\core_skyway.AssemblyInfo.cs
+C:\Users\Dell\project\MauiAppskyway\core_skyway\obj\Release\net7.0-android\core_skyway.csproj.CoreCompileInputs.cache

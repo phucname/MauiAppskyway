@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppskyway", "MauiAppskyway\MauiAppskyway.csproj", "{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skyway_android", "AndroidApp1\Skyway_android.csproj", "{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core_skyway", "core_skyway\core_skyway.csproj", "{5D286858-0F37-40B1-9117-D2B7743BA39C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "skyway_sfubot", "skyway_sfubot\skyway_sfubot.csproj", "{ECB91C32-2FE9-4166-A570-94996EFA7374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "skyway_room", "skyway_room\skyway_room.csproj", "{9F4E932E-E1AD-4FFD-9404-DDD16A4CF126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webrtc", "webrtc\webrtc.csproj", "{51A7337E-278D-4263-A2F7-6A3B8817562B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12BE1BB-F53E-4BE2-AF88-368DB56A260B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8233C85-E09F-44EC-AFE3-4BE26C3D54B3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5D286858-0F37-40B1-9117-D2B7743BA39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D286858-0F37-40B1-9117-D2B7743BA39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D286858-0F37-40B1-9117-D2B7743BA39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D286858-0F37-40B1-9117-D2B7743BA39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB91C32-2FE9-4166-A570-94996EFA7374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB91C32-2FE9-4166-A570-94996EFA7374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB91C32-2FE9-4166-A570-94996EFA7374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB91C32-2FE9-4166-A570-94996EFA7374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4E932E-E1AD-4FFD-9404-DDD16A4CF126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4E932E-E1AD-4FFD-9404-DDD16A4CF126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4E932E-E1AD-4FFD-9404-DDD16A4CF126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4E932E-E1AD-4FFD-9404-DDD16A4CF126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A7337E-278D-4263-A2F7-6A3B8817562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A7337E-278D-4263-A2F7-6A3B8817562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A7337E-278D-4263-A2F7-6A3B8817562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A7337E-278D-4263-A2F7-6A3B8817562B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal

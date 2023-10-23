@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YyQTUqvLyWMSTG/VLZoc47oCoLwjVuCX2Dei0xv4dLJgwqsH1lfC806c4l2Un16tGGl3NILT03zs1DkwHMA8Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\project\\MauiAppskyway\\skyway_room\\skyway_room.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.jetbrains.annotations\\24.0.1.5\\xamarin.jetbrains.annotations.24.0.1.5.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib\\1.9.10.2\\xamarin.kotlin.stdlib.1.9.10.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\xamarin.kotlin.stdlib.common\\1.9.10.2\\xamarin.kotlin.stdlib.common.1.9.10.2.nupkg.sha512"
+  ],
+  "logs": []
+}
